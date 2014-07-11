@@ -1,0 +1,78 @@
+{% load staticfiles %}
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JustXo - Behrain</title>
+<link href="{% static "css/boilerplate.css" %}" rel="stylesheet" type="text/css">
+<link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="{% static "css/respond.min.js" %}"></script>
+
+
+
+
+
+
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1">
+    <div class="images">
+      <div id="logo"><a href="/" ><img src="/static/images/logo1.png" alt=""></a> </div>
+    </div>
+    
+   
+    
+    <div id="mid">
+    
+    
+   <a href="b2c" >  <div id="LayoutDiv2">  << For me </div></a>
+      <div id="LayoutDiv3">
+        <div id="search"><img src="{% static "images/search1.png" %}" alt="" height="52"></div>
+        <div id="search_box"><table width="100%" border="0" >
+  <tr>
+    <td width="341"><input placeholder="Search for Deals/Company Name/Keyword/Category/Brand" id="layout2" name="" type="text"></td>
+    <td width="102"><input placeholder="Bahrain" id="layout3" name="" type="text"></td>
+  </tr>
+</table>
+</div>
+
+
+       <a href="#" > <div id="button">Search</div></a>
+      </div>
+      
+     <a href="b2b" > <div id="LayoutDiv4">For businesses >></div></a>
+      
+    
+      
+    </div>
+    
+    
+    
+    
+    
+    
+  
+  </div>
+</div>
+</body>
+</html>
